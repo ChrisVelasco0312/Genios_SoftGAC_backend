@@ -21,8 +21,7 @@ class ProductListView(
         # quiere actualizar existe 
         # Revisa si el item de producto que el usuario 
         queryset = Product.objects.get(id=id)
-        print(query)
-      except Todo.DoesNotExist:
+      except Product.DoesNotExist:
         # Si el item de no existe, retorna un mensaje de error
         return Response( {'errors' : ' This product item does not exist'}, status=400)
 

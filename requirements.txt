@@ -10,3 +10,9 @@ djangorestframework==3.12.4
 # MySQL Client - Used as an interface to connect Django application to the MySQL server.
 # mysqlclient==2.0.1
 PyMySQL==1.0.2
+
+# Cryptography
+cryptography==35.0.0
+
+# Environment Variables
+django-environ==0.8.1

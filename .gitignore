@@ -1,1 +1,5 @@
 SoftGAC/products/migrations/
+SoftGAC/products/__pycache__/
+SoftGAC/SoftGAC/__pycache__/
+
+.env
